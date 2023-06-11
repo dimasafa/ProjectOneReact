@@ -1,5 +1,31 @@
-.title {
-    h1 {
-        font-size: 50px;
+
+.menu {
+    background-color: #000;
+    display: flex;
+    &_logo{
+        margin: 50px 0 0 102px;
+        img{
+            width: 197px;
+            height: 84px;
+        }
+    }
+    &_list {
+        display: flex;
+        justify-content: space-between;
+
+        position: absolute;
+        width: 650px;
+        height: 24px;
+        right: 150px;
+        top: 73px;
+        li {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            list-style: none;
+            color: #F5F5F5;
+        }
     }
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Menu from '../mehrmals/menu/Menu';
+import WoodArt from '../mehrmals/woodArt/WoodArt';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <main>
-        <Menu/>
+        <WoodArt/>
       </main>
     </div>
   );
